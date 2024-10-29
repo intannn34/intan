@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: red;
+}
+
+container .logo img{
+    font-size: 24px;
+    color: white;
+    width: 30%;
+    height: 30%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.content {
+    width: 50%;
+}
+.image img {
+    width: 195px;
+    height: 195px;
+}
+
+button {
+    background-color:red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:red;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: red;
+}
+
+.info-item {
+    width: 45%;
+}
+
+.kurikulum {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.pengajar {
+    text-align: center;
+    background-color:red;
+    padding: 80px 40px;
+}
+
+.pengajar-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.pengajar-item {
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pengajar-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.fasilitas {
+    background-color:white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.fasilitas h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.carousel {
+    background-color: Blue ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.image-placeholder {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: auto;
+    border: 2px solid:white;
+    border-radius: 8px;
+}
+
+.description {
+    width: 65%;
+    font-size: 16px;
+    color:white;
+    padding: 20px;
+}
+.contact {
+    padding: 40px 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    width: 50%;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: blue;
+}
+
+.social-media {
+    width: 30%;
+    text-align: left;
+}
+
+.social-media h3 {
+    margin-bottom: 10px;
+}
+
+.social-media p a {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: red;
+}
